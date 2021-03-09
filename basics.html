@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My First Web Page </title>
+        <meta name ="description" content="That is my first web page" />
+        <meta http-equiv="Content-Type" content="text/html"; charset="uft-8"/>
+        <meta name ="viewport" content="width=device-width, initial-scale=1"/>
+        <style type="text/css">
+            Body {
+                color:greenyellow
+            }
+        </style>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("fname");
+                x.value = x.value.toUpperCase();
+            }
+        </script>
+    </head>
+
+    <body>
+        <p>This is a Sample HTML Document</p>
+        This Javascript function will capitalize my name:
+        <p>Enter your name: <input type="text" id ="fname" onchange="myFunction()"> </p>
+        <p>This is Line 1. <br> This is Line 2 &nbsp; This is Line 3</p> 
+
+        <ul>
+            <li><a href="#sport">My Favorite Sports</a><br></li>
+            <li><a href="#vacation">My Favorite Vacations</a><br></li>
+            <li><a href="#picture">Vacations Picture</a><br></li>
+        </ul>
+        <h1>Header 1</h1>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+        <h4><font face="arial" size="18" color="blue">Header 4</font></h4>
+
+        <p><strong>Bold Text</strong><br>
+            <em>Italic Text</em><br>
+            <u>Underlined Text</u><br>
+            <strike>Strike Text</strike><br>
+            <u><strong><em>Bold, Italic, and Underlined Text</em></strong></u>
+        </p>
+        <h3><a id="sport"></a>My Favorite Sports :</h3>
+        <ul>
+            <li>Football</li>
+            <li>Basketball</li>
+            <li>Soccer</li>
+        </ul>
+        <h3><a id="vacation"></a>My Favorite Vacations :</h3>
+        <ol>
+            <a href="https://www.muenchen.de/" target="_blank"><li>München</li></a>
+            <a href="https://www.hamburg.de/" target="_blank"><li>Hamburg</li></a>
+            <a href="https://www.frankfurt.de/"><li>Frankfurt</li></a>
+        </ol>
+        <h3><a id="picture"></a>Vacations Picture :</h3>
+        <p>
+            <img src="Munich.jpg" width="333" height="250">
+            <img src="Berlin_Mitte_GettyImages-483271808_golero_DL_PPT_0.jpg" width="375" height="250">
+            <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Europ%C3%A4ische_Zentralbank_-_European_Central_Bank_%2819190136328%29.jpg/1280px-Europ%C3%A4ische_Zentralbank_-_European_Central_Bank_%2819190136328%29.jpg width="374" height="250">
+        </p>
+    </body>
+</html>
