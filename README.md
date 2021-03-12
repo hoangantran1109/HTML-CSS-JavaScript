@@ -1,7 +1,7 @@
 # HTML-CSS-JavaScript-Learn
 
-#Udemy Course: HTML, CSS, & JavaScript - Certification Course for Beginners
-##About this course
+#Udemy Course: HTML, CSS, & JavaScript - Certification Course for Beginners#
+*About this course
 
 A Comprehensive Guide for Beginners interested in learning HTML, CSS, & JavaScript to Build Interactive Web Pages.
 
