@@ -8,6 +8,7 @@ About this course
 * Lectures: 113
 * Video: 5.5 total hours
 
+Description:
 The HTML sections covers the following key concepts:
 
     HTML Page Structure
